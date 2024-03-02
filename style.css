@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Rosssssboto',sans-serif;
+    background-size: cover;
+  }
+ 
+  .container{
+    width: 100%;
+    height:150vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(7.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left:7%;
+    padding-right:8%;
+    box-sizing: border-box;
+    
+  }
+  
+  .navbar{
+    height: 12%;
+    display: flex;
+    align-items:center;
+  }
+  .logo{
+    width: 130px;
+    cursor: pointer;
+    opacity:0.7;
+    border-radius: 30px;
+  
+  }
+  .menu-icon{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 30px;
+    
+  }
+  nav{
+    flex: 1;
+    text-align: right;
+
+  }
+  nav ul li {
+   list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+  }
+  nav ul a:hover{
+   background-color: beige;
+   color: black;
+    transition:0.4s ;
+    
+  }
+  a{
+    text-decoration: none;
+    color: rgb(226, 231, 231);
+    font-size: 13px;
+  }
+  .container-box{
+    color:  rgb(226, 231, 231);
+    display: inline-block
+    align-items: center;
+    display: flex;
+    height: 88%;
+    
+  }
+  
+  h1{
+    height: 120px;
+    font-size: 55px;
+    line-height: 150px;
+  }
+  h2{
+    
+    font-size: 45px;
+    height: 80px;
+    line-height:200%;
+  }
+  h3{
+    font-size: 35px;
+    height: 70px;
+    line-height:250%;
+    padding:2opx;
+    
+  }
+  ul{
+    line-height:40px;
+  }
+  p{
+    font-size: 12px;
+  }
+  button{
+    width: 100px;
+    color: rgb(9, 2, 38);
+    font-size: 13px;
+    padding:12px;
+    background: #fff;
+    border-radius: 20px;
+    border: 0px;
+    outline: none;
+    margin-top:30px;
+
+  }
+  .Box{
+    width: 200px;
+    height:230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position-x:center;
+    background-size:cover;
+    transition: transform 0.5s;
+    text-decoration: line-through;
+    float: right;
+  
+  }
+  .Box:hover{
+    transform: translateY(-10px);
+  }
+.bag1{
+  background-image: url(giphy7.jpg);
+}
+.bag2{
+  background-image: url(giphy2.jpg);
+}
+.bag3{
+  background-image: url(giphy5.jpg);
+}
+.bag4{
+  background-image: url(giphy3.jpg);
+}
+.bag5{
+  background-image: url(giphy1.jpg);
+}
+.bag6{
+  background-image: url(giphy6.jpg);
+}
+
+
+footer{
+  background-color: rgb(22, 15, 50);
+  height:13em;
+  width: 100%;
+  padding: 0%;
+  border-radius: 30px;
+  
+
+}
+.footer-container{
+  width: 95%;
+  padding:44px;
+ 
+}
+.icons{
+  display: flex;
+  justify-content: center;
+
+}
+.icons a{
+  text-decoration: none;
+  padding: 10px;
+  background-color: rgb(30, 29, 73);
+  margin: 10px;
+  border-radius: 30px;
+
+}
+.icons a i{
+  font-size: 3em;
+  opacity: 0.9;
+}
+.icons a:hover{
+  background-color: rgb(17, 150, 44);
+  transition:0.5s;
+}
+.footer-nav ul {
+  display: flex;
+  justify-content:center  ;
+  color: rgb(202, 128, 128);
+}
+.footer-nav ul li a{
+  color: rgb(168, 168, 193);
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.6;
+  
+}
+.footerbottom{
+  background-color: rgb(30, 29, 73);
+  padding: 9px;
+  border-radius: 1em;
+  text-align: center;
+  color: rgb(229, 229, 231);
+  opacity: 0.5;
+  margin:10px;
+  
+}
+.designer{
+  opacity: 0.5;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 1px;
+  font-size: 13px;
+}
+
+
+
